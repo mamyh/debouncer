@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.container > button {
+    
+    display: inline-block;
+    padding: 10px 30px;  
+    border-radius: 5px;
+    outline: none;
+    border:none;
+    color:#fff;
+    background-color: #140e07;
+    font-size: 25px;
+    transition: transform .5s;
+}
+.container > button:active{
+    transform: translateY(5px);
+}
